@@ -6,7 +6,7 @@ import dinnerImage from '@/public/images/dinner.jpg';
 import birthdayImage from '@/public/images/birthday.jpg';
 import detailImage from '@/public/images/detail.jpg';
 /** Informations à compléter avant publication. Ne pas inventer de coordonnées. */
-export const business = { name: 'Master Booth', siteUrl: process.env.NEXT_PUBLIC_SITE_URL || '', email: '', phone: '+33 6 61 52 93 04', address: '', legalName: '', registrationNumber: '', publicationDirector: '', instagramUrl: '' };
+export const business = { name: 'Master Booth', siteUrl: process.env.NEXT_PUBLIC_SITE_URL || '', email: '', phone: '+33 6 61 52 93 04', address: '', legalName: '', registrationNumber: '', publicationDirector: '', instagramUrl: 'https://www.instagram.com/masterbooth_/' };
 export const whatsappUrl = 'https://wa.me/33661529304?text=Bonjour%20Master%20Booth%2C%20je%20souhaite%20conna%C3%AEtre%20vos%20disponibilit%C3%A9s%20pour%20mon%20%C3%A9v%C3%A9nement.';
 export const nav = [['Accueil', '/#accueil'], ['La prestation', '/#prestation'], ['Galerie', '/#galerie'], ['Comment ça marche ?', '/#fonctionnement'], ['FAQ', '/#faq']] as const;
 export const departments = ['Paris — 75', 'Seine-et-Marne — 77', 'Yvelines — 78', 'Essonne — 91', 'Hauts-de-Seine — 92', 'Seine-Saint-Denis — 93', 'Val-de-Marne — 94', 'Val-d’Oise — 95'];
