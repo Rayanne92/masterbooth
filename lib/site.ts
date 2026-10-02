@@ -1,6 +1,7 @@
 import heroImage from '@/public/images/hero.jpg';
 import weddingImage from '@/public/images/wedding.jpg';
 import partyImage from '@/public/images/party.jpg';
+import djmImage from '@/public/images/DJM.jpg';
 import dinnerImage from '@/public/images/dinner.jpg';
 import birthdayImage from '@/public/images/birthday.jpg';
 import detailImage from '@/public/images/detail.jpg';
@@ -11,7 +12,7 @@ export const nav = [['Accueil', '/#accueil'], ['La prestation', '/#prestation'],
 export const departments = ['Paris — 75', 'Seine-et-Marne — 77', 'Yvelines — 78', 'Essonne — 91', 'Hauts-de-Seine — 92', 'Seine-Saint-Denis — 93', 'Val-de-Marne — 94', 'Val-d’Oise — 95'];
 /** Photographies d’ambiance illustratives, à remplacer par les photos de Master Booth. */
 export const photos = {
- hero: heroImage, wedding: weddingImage, party: partyImage, dinner: dinnerImage, birthday: birthdayImage, detail: detailImage
+ hero: heroImage, wedding: weddingImage, djm: djmImage, dinner: dinnerImage, birthday: birthdayImage, detail: detailImage
 };
 export const faqs = [
  ['Où vous déplacez-vous ?', 'Master Booth intervient exclusivement dans toute l’Île-de-France, directement sur votre lieu de réception.'],
